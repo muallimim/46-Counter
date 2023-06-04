@@ -19,6 +19,8 @@ div.container{
     top: 30%;
     left:50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 0 35px crimson;
+    border-radius: 15px;
 }
 
 input{
@@ -49,5 +51,12 @@ div.container>form{
     background-color: brown;
     color: white;
     border: 2px solid white;
+}
+
+
+#down:disabled, #up:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+    
 }
 
